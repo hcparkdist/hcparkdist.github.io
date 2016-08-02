@@ -1,0 +1,43 @@
+/*****************************************
+  Hazel Crest Park District - Menu Styles
+******************************************/
+
+#VWnav {font-size: 1.1em;text-decoration: none;	font-weight: normal;line-height: 1.5em;font-style: normal;font-family: Verdana, Geneva, sans-serif;	border:0 none;padding-top: 24px;padding-left:6px; margin-left: 0;margin-top: 6px;}
+.nav-div {	background-image: url(img/nav-div.jpg);	background-repeat: no-repeat;background-position: right center;	height: 28px;width: 1px;padding-right: 11px;margin-bottom: 2px;padding-left: 13px;}
+.nav-div-last {	padding-left: 10px;}
+#VWnav li {	font-weight: normal;list-style-type: none; margin:0}
+#VWnav ul {	padding:6px 8px 0px 0px; /*padding:0;*/ position: absolute; left: -9000px;	z-index: 10000;	font-weight: normal; /*border-right: 1px solid #333;border-bottom: 1px solid #333;*/ }
+#VWnav ul li {border-top: 1px solid #389c1c; background-color: #2f8317;border-right: 1px solid #dceed7;border-left: 1px solid #dceed7;	border-bottom: 1px solid #dceed7;}
+#VWnav a {	display: block;	text-decoration: none;	padding: 0;	color: #FFFFFF;	}
+#VWnav ul a {font-size: .85em; font-weight: normal;padding: 4px 5px 4px 8px;	text-align: left;}
+#VWnav a:hover, #VWnav a:active, #VWnav a:focus,#VWnav  #VWnav  #VWnav {color: #FFFFFF;}
+#VWnav ul a:hover, #VWnav ul a:active, #VWnav ul a:focus,#VWnav ul  #VWnav ul  #VWnav ul  {color: #FFFFFF;	background-color:#2c5b22;}
+#VWnav  #VWnav  {font-weight: normal;}
+#VWnav ul .VWtrg {	background-image:  url(img/nav-arrow.gif);	background-repeat:	no-repeat;	background-position: right center;}
+#VWnav .VWhide {left: -9000px;	border: 0;}
+#VWnav .VWshow {left: auto;	z-index: 20000 !important;}
+#VWnav li {	float: left;width: auto;}
+#VWnav ul li {	float: none; filter: alpha(opacity=92);	-moz-opacity:0.88;}
+#VWnav ul, #VWnav ul li {width: 220px;}
+
+
+
+#wrapper #container1-wrap #content-container #content-wrap-right2 #content p {
+	color: #F00;
+}
+#wrapper #container1-wrap #content-container #content-wrap-right2 #content p u {
+	color: #00F;
+	font-weight: bold;
+}
+#wrapper #container1-wrap #content-container #content-wrap-right2 #content h3 u {
+	color: #00F;
+}
+#wrapper #container1-wrap #content-container #content-wrap-right2 #content p {
+	color: #F00;
+}
+p {
+	color: #F00;
+}
+#wrapper #container1-wrap #content-container #content-wrap-right2 #content p {
+	color: #F00;
+}

@@ -1,0 +1,152 @@
+/*************************************************************
+  typography.css
+ Hazel Crest Park District, www.hazelcrestpark.org/
+ 2012
+ coded by: eParkDistrict.com~VisionaryWebworks.com
+*************************************************************/
+
+/*--- Globals ---*/
+body {font:.75em/150% Verdana, Geneva, sans-serif;color:#333;}
+a,a:visited {color:#377824;	text-decoration:none;}
+a:hover {
+	color:#0072ae;
+	text-decoration:none;
+}
+#content {
+	min-height: 400px;
+	font-size:12px;
+	text-align:left;
+	margin: .5em 2em 0em 2em;
+	color: #060;
+}
+#content p {
+	margin-top: 0.25em;
+	margin-right: 0;
+	margin-left: 0;
+	color: #30C;
+}
+
+/*#date {text-align:right;padding-top: 2px;	font-size:11px;	text-decoration:none;	color:#fff;	font-weight:400;	float:left;	width:190px;}*/
+#submenu {	text-align: right;clear:both;float:right;font-size:1em;font-weight:700;color:#fff;text-decoration:none;margin:0px 12px 0px 0px;}
+#submenu a {color:#fff;text-decoration:none;}
+#submenu a:hover {color:#eaff83;text-decoration:none;}
+#date {font-size:11px;text-decoration:none;color:#fff;font-weight:700;float:left;	}
+
+/*--- Calendar---*/
+#events-top {	font-size:1.70em;	font-weight:700;	color:#FFF;	text-align:center;	margin-top:.5em;	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	line-height: 1.5em;}
+#events-box {text-decoration:none;color:#fff;font-weight:400;}
+#events-box a{text-decoration:bold;color:#fff;font-weight:700;}
+#events-box p {margin:.85em 0 .25em;}
+
+
+
+/*--- Headers (H headers used to promote SEO page ranking, use H1 once per page---*/
+#content h1 {
+	font-family:"Verdana", Geneva, sans-serif;
+	color:#000;
+	font-size:1.45em;
+	font-weight: 500;
+	line-height:normal;
+	margin-bottom:13px;
+	margin-top:0px;
+}
+
+#content h2 { font-family:"Verdana", Geneva, sans-serif;color:#318e14;font-size:1.45em;font-weight: 500;line-height:normal;margin-bottom:.2em;margin-top:1em;}
+#content h3 {font-family:"Verdana", Geneva, sans-serif;color:#0072ae;font-size:1.25em;font-weight: 500;line-height:normal;margin-bottom:.2em;margin-top:1em;}
+#content h4 {font-family:"Verdana", Geneva, sans-serif;color:#398235;font-size:1em;font-weight: 500;line-height:normal;margin-bottom:.2em;margin-top:.5em;}
+#content h5 {font-family:"Verdana", Geneva, sans-serif;color:#0072ae;font-size:1em;font-weight: 500;line-height:normal;margin-bottom:.2em;margin-top:.5em;}
+#content h6 {font-family:"Verdana", Geneva, sans-serif;color:#318e14;font-size:.9em;font-weight: 500;line-height:normal;margin-bottom:.2em;margin-top:1em;}
+
+/*--- Tables & Callout Boxes (use sparingly) ---*/
+.tableborders {	border:1px solid #2f8216;	border-collapse:collapse;	text-decoration:none;	margin-top:6px;	margin-bottom:10px;}
+.tableheader {	background-color:#2f8216;	font-size:1em;	font-weight:700;	border-bottom:1px solid #a3be5c;	color: #FFF;}
+.rowheader {	background-color:#ECF4D7;	font-size:1em;	font-weight:700;	border-bottom:1px solid #a3be5c;}
+.tableborders tr.on {	background-color:#ECF4D7;}
+.tableborders tr.on a {background-color:#ECF4D7;display:block;text-decoration:none;}
+.tableborders td.on {background-color:#ECF4D7;}
+.tableborders a {
+	display:block;
+	text-decoration:none;
+	text-align: center;
+}
+.tableborders td,.tableborders th {
+	border:1px solid #a3be5c;
+	text-decoration:none;
+	padding:2px 6px;
+	text-align: center;
+}
+
+.callout-left{background-color:#318e14;color:#FFF;float:left;text-align:left;border:2px solid #318915;font-size:.95em;margin:10px 12px 12px 2px;padding:14px;}
+.callout-right{background-color:#318e14;color:#FFF;float:right;text-align:left;border:2px solid #318915;font-size:.95em;margin:10px 2px 12px 12px;padding:14px;}
+.callout220-left{width:220px;background-color:#318e14;color:#FFF;float:left;text-align:left;border:2px solid #318915;font-size:.95em;margin:10px 12px 12px 2px;padding:14px;}
+.callout220-right{width:220px;background-color:#318e14;color:#FFF;float:right;text-align:left;border:2px solid #318915;font-size:.95em;margin:10px 2px 12px 12px;padding:14px;}
+.callout-left .header,.callout220-left .header,.callout-right .header,.callout220-right .header{font-variant:small-caps;border-bottom-width:1px;border-bottom-style:dashed;border-bottom-color:#FFF;font-weight:700;font-size:1.2em;}
+.callout-left a,.callout-right a {color:#FFF;font-style:normal;text-decoration:underline;}
+.callout-left a:hover,.callout-right a:hover {font-style:normal;text-decoration:none;}
+
+
+.boxed {	height:auto;	width:auto;	border:2px solid #7096ca;	background-color:#e1ebfa;	margin:15px;	padding: 20px;}
+/*--- misc ---*/
+.error {color:#D90000;}
+.smallertxt {font-size:0.8em;}
+#content hr {	height:1px;	border-color:#3c61a9;	border-style:dashed;	border-width:1px 0 0;	margin-top: 1.5em;	margin-right: 1em;	margin-bottom: .75em;margin-left: 1em;}
+
+
+/*--- Bullets for days... ---*/
+#content ul {margin-bottom:10px;}
+#content ul li {
+	margin-left:1em;
+	list-style-type:square;
+	margin-bottom:6px;
+	color: #900;
+}
+#content ul li li {list-style-type:circle;margin-left:30px;margin-bottom:6px;}
+#content ol li {margin-left:30px;margin-bottom:6px;}
+#content blockquote {margin-left:30px;margin-right:10px;}
+#content ul ul ul li {list-style-type:square;margin-top:.25em;}
+#content ol[type="a"] li {margin-left:2em;list-style-type:lower-alpha;margin-bottom:6px;}
+#content ol[type="1"] li {margin-left:2em;list-style-type:decimal;margin-bottom:6px;}
+#content ol[type="I"] li {margin-left:2em;list-style-type:upper-roman;margin-bottom:6px;}
+#content ol[type="i"] li {margin-left:2em;list-style-type:lower-roman;margin-bottom:6px;}
+blockquote {margin:0 3em 1em;}
+dd {margin-left:2em;}
+
+/* Float Fix */
+div.clearer {clear:both;line-height:0;height:0;display:block;}
+
+/*--- Photo Alignment and Borders ---*/
+.bannerframe{	border:2px solid #d0d2d1;	width:602px;	padding:5px;	margin-top: 0;	margin-right: auto;	margin-bottom: 20px;	margin-left: auto;}
+.banner-bdr{border:1px solid #000;margin:0 auto;}
+.imgleft-nobdr {float:left;margin:8px 13px 8px 0;}
+.imgleft-bdr {float:left;border:1px solid #000;margin:8px 13px 8px 0;}
+.img-bdr {float:none;border:1px solid #000;margin:8px;}
+.imgright-nobdr {float:right;margin:8px 0 8px 13px;}
+.imgright-bdr {float:right;border:1px solid #000;margin:8px 0 8px 13px;}
+.photo-block {float:left;padding:10px 14px;}
+.imgright-wtext {float:right;padding:10px 14px; margin-bottom: 20px;}
+
+/*--- Form ---*/
+#form {	font-family: Verdana, Geneva, sans-serif;color:#2E465C;	border:1px solid #a3be5c;	border-collapse:collapse;	padding:2px 0 2px 0px;}
+#form td {border:1px solid #a3be5c;padding:4px;}
+#form th {font-weight: normal;border:1px solid #a3be5c;padding:4px;}
+/*#form input,textarea {color:#422100;text-decoration:none;border:1px solid #87775F;text-indent:.25em;background-color:#E2DDD6;margin:1px;}
+*/#txtComments {width:470px ;font-family: Verdana, Geneva, sans-serif;font-size:1em;text-decoration:none;border:1px solid #a3be5c;padding:.25em;background-color:#eff5fc;margin:1px;}
+#iforms input,textarea {	font-size:1em;	text-indent:5px;	color:#333;	padding-left:2px;	margin-left:4px;	margin-right:2px;
+	margin-top:6px;	text-decoration:none;	background-color:transparent;	border:0;}
+/*#iforms #pd input {	margin-bottom: 20px;}*/
+
+/*--- Footer ---*/
+#footer-upper {padding-top:52px;font-size:1.2em;}
+#footer {width: 764px;float:right;margin: 58px 22px 0 0px;font-size:.85em;color:#333;font-family:Verdana, sans-serif;text-decoration:none;letter-spacing:normal;padding-bottom:0;text-align:center;}
+#footer a {color:#333;text-decoration:none;font-weight:700;}
+#footer a:hover {color:#398ee1;text-decoration:none;}
+p#top {margin:0;}
+#toplink {margin:0; padding: 0;}
+/*--- vw ---*/
+#vw {	font-size:0.8em;	color:#57a8e8;	font-family:Verdana, sans-serif;	text-decoration:none;	letter-spacing:normal;
+	width:960px;clear:both;	line-height:1.2em;	margin: 14px auto; 	padding-bottom: 10px;}
+#vw a {color:#57a8e8;text-decoration:none;}
+#vw a:hover {	color:#fff;	text-decoration:none;}
+
+/*--- Print Stylesheet ---*/
+#printnotice {display:none;}

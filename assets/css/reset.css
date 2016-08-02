@@ -1,0 +1,35 @@
+/*****************
+   MASTER RESET
+******************/
+
+.clearboth{clear:both;}
+.clearfix{display:block;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+a{outline:none;text-decoration:none;}
+address,caption,cite,code,dfn,em,h1,h2,h3,h4,h5,h6,strong,th,var{font-style:normal;}
+strong{
+	font-weight:bold;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000;
+}
+caption{
+	text-align:left;
+	font-family: Verdana, Geneva, sans-serif;
+}
+dd{margin-left:2em;}
+fieldset,img,abbr,img,a img{
+	border:0;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #377824;
+	text-align: left;
+}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400;text-shadow:#000 0 0 0;}
+i,em{font-style:italic;}
+/*q:before,q:after{content:'';}
+*/table{border-collapse:collapse;border-spacing:0;}
+table,tr,td,th{
+	font-size:100%;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+table ul {margin-left: -2em;}
