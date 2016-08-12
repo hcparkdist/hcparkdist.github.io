@@ -25,6 +25,17 @@ body {
   border: 0;
 }
 
+.candy_icon_style2 img {
+  margin: 10px 19px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  transition: 1s;
+}
+
+.candy_icon_style2 img:hover {
+  border: 1px solid #aaa;
+}
+
 /*
  * Sidebar
  */

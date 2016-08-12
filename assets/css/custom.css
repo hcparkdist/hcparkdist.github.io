@@ -1,11 +1,24 @@
-.navbar-inverse .btn-navbar
-{
-    background: #27ae60;
-    color: white;
-    link: white;
+.candy_icon_style1 img {
+    margin: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    transition: 1s;
 }
 
-h2{
-    padding-left: 60px;
-    padding-right: 20px;
+.candy_icon_style1 img:hover {
+    border: 1px solid #aaa;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:30%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height: 300px;
+    width:100%;
+    position:absolute;
 }
